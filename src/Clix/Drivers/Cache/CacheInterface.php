@@ -31,6 +31,6 @@ interface CacheInterface
      * @param  string $cacheName    SHA1 hash of a relatable string
      * @param  mixed  $cacheResults Details to save into the cache
      */
-    public function set($cacheName, $values);
+    public function set($cacheName, $values, $expires);
 
 }
